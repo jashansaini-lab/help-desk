@@ -17,11 +17,7 @@
             color: #003366;
         }
         img {
-            width: 120px;
-            height: 120px;
             border-radius: 15px;
-            display: block;
-            margin: 20px auto;
         }
         .section {
             margin-bottom: 40px;
@@ -47,12 +43,37 @@
             width: 360px;
             height: 640px;
         }
+        /* NEW styles for Excel chart + file section */
+        .chart-image {
+            display: block;
+            margin: 30px auto;
+            width: 80%;
+            max-width: 850px;
+            border-radius: 10px;
+            border: 2px solid #99ccff;
+        }
+        .excel-box {
+            background: #d9f0ff;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #99ccff;
+            margin-bottom: 50px;
+        }
+        .excel-box a {
+            font-size: 20px;
+            color: #003366;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .excel-box a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <h1 style="text-align:center;">Fiscal Year 2025 Internal Help Desk Operations Plan</h1>
-    <img src="helpdesk_icon.png" alt="IT Help Desk Icon">
-    
+    <img src="helpdesk_icon.png" alt="IT Help Desk Icon" width="120" height="120" style="display:block; margin:20px auto;">
+
     <div class="section">
         <h2>Introduction</h2>
         <p>Hello! My name is <strong>Jaspreet Singh</strong>, and I am the Help Desk Supervisor for our internal IT Support Team. This plan outlines our operational goals and improvement strategies for the upcoming fiscal year to enhance our team’s performance, service quality, and user satisfaction.</p>
@@ -113,6 +134,30 @@
         <h2>Watch Our 2025 Help Desk Plan Overview</h2>
         <iframe src="https://www.youtube.com/embed/uvlVIuBjjYo?si=0VOzYy0lPniWebeH" allowfullscreen></iframe>
     </div>
+
+    <hr>
+
+    <!-- ************* NEW SECTION ADDED HERE ************* -->
+    <div class="section">
+        <h2>Monthly SMART Goal Progress Report</h2>
+
+        <!-- Image of Excel bar chart -->
+        <!-- Make sure your image file name matches this exactly -->
+        <img src="excel chart.png" alt="SMART Goals Excel Chart" class="chart-image">
+
+        <!-- Link to download Excel file -->
+        <!-- Make sure your Excel file name matches this exactly -->
+        <div class="excel-box">
+            <h3>Download the Full SMART Goals Excel Report</h3>
+            <p>
+                <a href="SMART Goals Report.xlsx" download>
+                    📥 Click here to download <strong>SMART Goals Report.xlsx</strong>
+                </a>
+            </p>
+            <p>This workbook includes the 5 SMART goals, monthly Target vs Actual values, and a bar chart for stakeholder review.</p>
+        </div>
+    </div>
+    <!-- *********** END OF NEW SECTION BEFORE FEEDBACK *********** -->
 
     <hr>
 
